@@ -13,7 +13,7 @@
         var map; //맵 객체
 
         //var DefaultIcon = "http://openimage.interpark.com/tourpark/tour/FreeyaPlanner/popup/mapicon/iconSpot.png";
-        var DefaultIcon = new google.maps.MarkerImage("http://openimage.interpark.com/tourpark/tour/FreeyaPlanner/popup/mapicon/iconSpot.png", null, null, null, new google.maps.Size(22, 26));
+        var DefaultIcon = new google.maps.MarkerImage("images/iconSpot.png", null, null, null, new google.maps.Size(22, 26));
 
         //설정가능 옵션들
         var baseOptions = {
@@ -450,8 +450,7 @@
 
                     var icon = DefaultIcon;
                     if (tMarkerOptions.iconimageType == "num") {
-                        icon = new google.maps.MarkerImage("http://openimage.interpark.com/tourpark/tour/FreeyaPlanner/popup/mapicon/iconSpot" + getNumIcon(i + 1) + ".png", null, null, null, new google.maps.Size(22, 26));
-                        //                    icon = 'http://openimage.interpark.com/tourpark/tour/FreeyaPlanner/popup/mapicon/iconSpot' + getNumIcon(i+1) + '.png';
+                        icon = new google.maps.MarkerImage("images/iconSpot" + getNumIcon(i + 1) + ".png", null, null, null, new google.maps.Size(22, 26));                        
                     }
 
                     var markerOpt = {

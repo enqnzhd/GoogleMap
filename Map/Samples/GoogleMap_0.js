@@ -172,7 +172,7 @@
             map.mapTypes.set('cusMap', new google.maps.StyledMapType(tMapStyleOptions, { name: "cusMap" }));
             map.setMapTypeId('cusMap');
         };
-        /* 2. 지도 스타일 적용 ---------------------------------------------------*/
+        /* 2. 지도 스타일 적용 ---------------------------------------------------*/        
 
     }; //plugin function
 

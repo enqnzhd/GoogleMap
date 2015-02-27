@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="googleMap.aspx.cs" Inherits="Samples_DefaultMap_googleMap" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="googleMap_0.aspx.cs" Inherits="Samples_DefaultMap_googleMap" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -10,7 +10,7 @@
     </style>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>       
     <script id="mapSC" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=ko&libraries=weather"></script>     
-    <script src="GoogleMap_Default.js"></script>    
+    <script src="GoogleMap_0.js"></script>    
     <script type="text/javascript">
 
         /*지도 설정*/
@@ -79,7 +79,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <h1>구글맵 Test</h1>
+        <h3>구글맵 Test- 지도만</h3>
         <input type="button" value="test1" onclick="googleMapTest1(0,spotArr_0);" />
         <input type="button" value="test2" onclick="googleMapTest1(1,spotArr_1);" />
         <input type="button" value="test3" onclick="googleMapTest1(2,spotArr_2);" />
